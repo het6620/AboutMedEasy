@@ -463,7 +463,61 @@ footer {
     }
 
     footer{
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         font-size: x-small;
+    }
+    footer p {
+        position: relative;
+        left: 3px;
+    }
+    .formClass{
+        max-width: max-content;
+    }
+}
+
+@media screen and (max-width:365px) {
+    header{
+        max-height: 16%;
+        font-size: 49%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #mainTitle{
+        font-size: small;
+    }
+    .icon{
+        margin:0;
+        padding: 0;
+    }
+    .icon i{
+        justify-content:flex-start;
+    }
+    .cardContainer{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .card{
+        max-width: 65vw;
+    }
+
+    .links{
+        margin-left: 10vw;
+    }
+
+    footer{
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: x-small;
+    }
+    footer p {
+        position: relative;
+        left: 3px;
     }
     .formClass{
         max-width: max-content;
