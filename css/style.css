@@ -430,3 +430,42 @@ footer {
         font-size: x-small;
     }
 }
+
+
+@media screen and (max-width:400px) {
+    header{
+        max-height: 16%;
+        font-size: 8px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #mainTitle{
+        font-size: small;
+    }
+    .icon{
+        margin:0;
+        padding: 0;
+    }
+    .icon i{
+        justify-content:flex-start;
+    }
+    .cardContainer{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .card{
+        max-width: 65vw;
+    }
+
+    .links{
+        margin-left: 10vw;
+    }
+
+    footer{
+        font-size: x-small;
+    }
+    .formClass{
+        max-width: max-content;
+    }
+}
